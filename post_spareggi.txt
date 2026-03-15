@@ -1,0 +1,125 @@
+# ═══════════════════════════════════════════════════════════════
+# CAMPLUS PADEL CUP 2026 - RISULTATI GIRONI (TEST TIE-BREAKING)
+# ═══════════════════════════════════════════════════════════════
+# ═══════════════════════════════════════════════════════════════
+# CAMPLUS PADEL CUP 2026 - RISULTATI GIRONI (TEST TIE-BREAKING)
+# ═══════════════════════════════════════════════════════════════
+#
+# FILE PRE-SPAREGGI — squadre originali, scenari di parità vari.
+#
+# CASO TESTATO PER GIRONE:
+#   GIRONE 1 - Nessuna parità, classifica netta
+#   GIRONE 2 - Parità 2 squadre in testa → scontro diretto risolve
+#   GIRONE 3 - Parità 3 squadre, ciclo A>B>C>A → diff set risolve
+#   GIRONE 4 - Parità 3 squadre, ciclo + diff set uguali → diff game risolve
+#   GIRONE 5 - Parità 2 squadre a metà classifica → scontro diretto risolve
+#   GIRONE 6 - Parità 2 squadre in coda → scontro diretto risolve
+#   GIRONE 7 - Parità 2 squadre in testa, diff set uguale diff game diverso → si risolve
+#   GIRONE 8 - Parità TOTALE 2 squadre → MONETINA
+#
+# ═══════════════════════════════════════════════════════════════
+
+# ---------------------------------------------------------------
+# GIRONE 1
+# ---------------------------------------------------------------
+GIRONE 1
+I bricchioncelli ; 9 ; +6 ; +23
+Iberian Brothers ; 5 ; +1 ; +1
+Los Mercenarios ; 4 ; -1 ; -1
+I Padelle ; 0 ; -6 ; -23
+
+# ---------------------------------------------------------------
+# GIRONE 2
+# ---------------------------------------------------------------
+GIRONE 2
+609 ; 9 ; +6 ; +24
+I Guerrieri di Capestrano ; 5 ; +1 ; -3
+Caco Brothers ; 4 ; -1 ; -1
+Red Devils ; 0 ; -6 ; -20
+
+# ---------------------------------------------------------------
+# GIRONE 3
+# ---------------------------------------------------------------
+GIRONE 3
+Niente popo di meno che ; 9 ; +6 ; +22
+Abc ; 6 ; +2 ; +8
+411 ; 3 ; -2 ; -10
+Rimastino lavico ; 0 ; -6 ; -20
+
+# ---------------------------------------------------------------
+# GIRONE 4
+# ---------------------------------------------------------------
+GIRONE 4
+Los Pollos Hermanos ; 9 ; +6 ; +20
+Real Crescenzago ; 6 ; +2 ; +8
+Taralli & Peroni ; 3 ; -2 ; -6
+assedisajeager ; 0 ; -6 ; -23
+
+# ---------------------------------------------------------------
+# GIRONE 5
+# ---------------------------------------------------------------
+GIRONE 5
+The Pedro Files ; 9 ; +6 ; +19
+Collo Dolente ; 5 ; +1 ; -1
+Ferdi & Fede ; 3 ; -2 ; -5
+Mediterraneo Caliente ; 1 ; -5 ; -13
+
+# ---------------------------------------------------------------
+# GIRONE 6
+# ---------------------------------------------------------------
+GIRONE 6
+A chicchi ; 9 ; +6 ; +22
+Smash or Pass ; 6 ; +2 ; +6
+Rramarri marroni ; 3 ; -2 ; -18
+Yokopoko Mayoko ; 0 ; -6 ; -22
+
+# ---------------------------------------------------------------
+# GIRONE 7
+# ---------------------------------------------------------------
+GIRONE 7
+Scarsenal F.C. ; 9 ; +6 ; +19
+PADELla ; 6 ; +2 ; +7
+Due salti in padella ; 2 ; +1 ; -12
+i vez ; 1 ; -5 ; -14
+
+# ---------------------------------------------------------------
+# GIRONE 8
+# ---------------------------------------------------------------
+GIRONE 8
+Scamarcio2 ; 8 ; +5 ; +10
+Manzibbq ; 7 ; +3 ; +10
+Los tikkio's ; 3 ; -2 ; +2
+Peach & Daisy ; 0 ; -6 ; -18
+
+# ---------------------------------------------------------------
+# TIEBREAK — risposte salvate automaticamente dal programma al primo lancio
+#
+# Formato chiave: G<n>_SD_<squadraA>_vs_<squadraB> → 1=vince A, 2=vince B
+#                 G<n>_MON_<pos>_<prima>_<ultima>  → numero squadra vincitrice
+# ---------------------------------------------------------------
+# SPAREGGI — risultati delle partite 2a vs 3a di ogni girone
+# 1 = vince la seconda classificata, 2 = vince la terza classificata
+#
+# Con i tie-break sopra, le classifiche finali per fascia sono:
+#   PRIME:   Los Mercenarios, Caco Brothers, Rimastino lavico,
+#            assedisajeager, Mediterraneo Caliente, Rramarri marroni,
+#            Scarsenal F.C., Peach & Daisy
+#   SECONDE: Iberian Brothers, 609, 411, Real Crescenzago,
+#            The Pedro Files, Smash or Pass, PADELla, Scamarcio2
+#   TERZE:   I Padelle, I Guerrieri di Capestrano, Abc, Taralli & Peroni,
+#            Collo Dolente, A chicchi, i vez, Los tikkio's
+#   QUARTE:  I bricchioncelli, Red Devils, Niente popo di meno che,
+#            Los Pollos Hermanos, Ferdi & Fede, Yokopoko Mayoko,
+#            Due salti in padella, Manzibbq
+#
+# Sp.1: Manzibbq    vs  Duesaltiinpadella            → 1
+# Sp.2: abc                 vs  Rramarri marroni                   → 1
+# Sp.3: RealCrescenzago                 vs  411               → 1
+# Sp.4: Padella    vs  Taralli & Peroni            → 1
+# Sp.5: Smash or Pass     vs  Ferdi e Fede         → 1
+# Sp.6: Iberian brothers       vs  lo's tikkios                     → 1
+# Sp.7: Collo dolente             vs  Caco brothers  → 1
+# Sp.8: I guerrieri di capestrano          vs  Los mercenarios               → 2
+# ---------------------------------------------------------------
+SPAREGGI
+1 1 1 1 1 1 1 2

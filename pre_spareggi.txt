@@ -1,0 +1,89 @@
+# ═══════════════════════════════════════════════════════════════
+# CAMPLUS PADEL CUP 2026 - RISULTATI GIRONI (TEST TIE-BREAKING)
+# ═══════════════════════════════════════════════════════════════
+#
+# FILE PRE-SPAREGGI — squadre originali, scenari di parità vari.
+#
+# CASO TESTATO PER GIRONE:
+#   GIRONE 1 - Nessuna parità, classifica netta
+#   GIRONE 2 - Parità 2 squadre in testa → scontro diretto risolve
+#   GIRONE 3 - Parità 3 squadre, ciclo A>B>C>A → diff set risolve
+#   GIRONE 4 - Parità 3 squadre, ciclo + diff set uguali → diff game risolve
+#   GIRONE 5 - Parità 2 squadre a metà classifica → scontro diretto risolve
+#   GIRONE 6 - Parità 2 squadre in coda → scontro diretto risolve
+#   GIRONE 7 - Parità 2 squadre in testa, diff set uguale diff game diverso → si risolve
+#   GIRONE 8 - Parità TOTALE 2 squadre → MONETINA
+#
+# ═══════════════════════════════════════════════════════════════
+
+# ---------------------------------------------------------------
+# GIRONE 1
+# ---------------------------------------------------------------
+GIRONE 1
+Los Mercenarios ; 3 ; +4 ; +10
+Iberian Brothers ; 2 ; +1 ; +3
+I Padelle ; 1 ; -1 ; -5
+I bricchioncelli ; 0 ; -4 ; -8
+
+# ---------------------------------------------------------------
+# GIRONE 2
+# ---------------------------------------------------------------
+GIRONE 2
+Caco Brothers ; 3 ; +5 ; +12
+609 ; 3 ; +5 ; +12
+I Guerrieri di Capestrano ; 0 ; -2 ; -7
+Red Devils ; 0 ; -8 ; -17
+
+# ---------------------------------------------------------------
+# GIRONE 3
+# ---------------------------------------------------------------
+GIRONE 3
+Rimastino lavico ; 2 ; +3 ; +8
+411 ; 2 ; +1 ; +4
+Abc ; 2 ; -1 ; -2
+Niente popo di meno che ; 0 ; -3 ; -10
+
+# ---------------------------------------------------------------
+# GIRONE 4
+# ---------------------------------------------------------------
+GIRONE 4
+assedisajeager ; 2 ; +2 ; +7
+Real Crescenzago ; 2 ; +2 ; +4
+Taralli & Peroni ; 2 ; +2 ; -1
+Los Pollos Hermanos ; 0 ; -6 ; -10
+
+# ---------------------------------------------------------------
+# GIRONE 5
+# ---------------------------------------------------------------
+GIRONE 5
+Mediterraneo Caliente ; 3 ; +6 ; +14
+The Pedro Files ; 2 ; +2 ; +5
+Collo Dolente ; 2 ; +2 ; +5
+Ferdi & Fede ; 0 ; -10 ; -24
+
+# ---------------------------------------------------------------
+# GIRONE 6
+# ---------------------------------------------------------------
+GIRONE 6
+Rramarri marroni ; 3 ; +3 ; +7
+Smash or Pass ; 2 ; +2 ; +5
+Yokopoko Mayoko ; 1 ; -1 ; -4
+A chicchi ; 1 ; -1 ; -4
+
+# ---------------------------------------------------------------
+# GIRONE 7
+# ---------------------------------------------------------------
+GIRONE 7
+Scarsenal F.C. ; 2 ; +3 ; +9
+PADELla ; 2 ; +3 ; +5
+i vez ; 1 ; -2 ; -6
+Due salti in padella ; 1 ; -4 ; -8
+
+# ---------------------------------------------------------------
+# GIRONE 8
+# ---------------------------------------------------------------
+GIRONE 8
+Scamarcio2 ; 2 ; +2 ; +5
+Peach & Daisy ; 2 ; +2 ; +5
+Los tikkio's ; 1 ; -1 ; -4
+Manzibbq ; 1 ; -3 ; -6
